@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<metadata
+  xmlns="http://gothos.info/resource_files/country_centroids.zip"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+ 
+	<dc:title>country_centroids.zip</dc:title>
+	
+	<dc:creator>Frank Donnelly</dc:creator>
+		
+	<dc:subject>Geographic Centroids for Countries</dc:subject>
+	
+	<dc:description>This ZIP file contains two tab-delimited text files with latitude and longitude coordinates in decimal degrees and degrees/minutes/seconds for the geographic center (centroids) for each nation in the world. This includes all independent countries and most dependent entities and territories. Most of the data for the world was extracted from the NGA's GEOnet Names Server (GNS). Since the United States and its territories are not included in this resource, data for those areas was downloaded from the USGS Geographic Names Information System (GNIS).
+
+	There are two files: country_centroids_all contains all of the entities that I could identify (257 in total) as independent nations and dependent territories, and country_centroids_primary is a subset of that list (236 in total) where uninhabited islands (i.e. Clipperton, US Minor Outlying Islands, etc), and dependent entities that are near their primary country and are an integral part of that country (i.e. Isle of Man in the UK, Svalbard in Norway, Hong Kong in China, etc) were removed.
+
+	Since the US Government is the original source of this data, the coordinates are in NAD 83 and the country codes are the two-digit FIPS 10 codes. For general, global mapping you can plot the coordinates in WGS 84, since these two systems are almost identical (but if you want to play by the rules plot them in NAD 83 first, then transform them to WGS 84). I went ahead and added the two digit ISO 3166 codes, which are commonly used by the UN and other agencies that publish international attribute data. However - in some cases entities will have NULL values for these ISO codes because the international community didn't designate them. Also, the ISO code for the Gaza Strip and West Bank is duplicated because ISO assigns one code to the occupied Palestinian Territories, while the US assigns a unique FIPS code to each area. Given the issues with the ISO Codes, the FIPS code is the unique identifier for this data; I also carried over other ID numbers that were used in both of the gazetteer systems, and added an Affiliation code (using FIPS 10) that ties legally dependent entities and territories to their parent country. In many cases the two-letter FIPS and ISO codes are the same, but in many cases they're not. If you're joining your own data to these points make sure you're using the correct codes.
+
+	The data is current as of February 2012. Once again, since the data is from a US government resource place names and spellings (i.e. Burma for Myanmar), and recognized countries and entities (i.e. Kosovo as independent, Taiwan represented individually but as part of China) reflect US policies and general US convention. If this doesn't meet your needs feel free to modify it yourself.
+
+This file can be used for performing basic distance calculations, for label placement in a GIS, or for representing country attribute data as points or graduated symbols. Just plot the coordinates as XY data using the LAT and LONG fields.</dc:description>
+	
+	<dc:date>2012-02-12</dc:date>
+	
+	<dc:type>Dataset</dc:type>
+	
+	<dc:format>text/tab-separated-values</dc:format>
+	
+	<dc:identifier>http://gothos.info/resource_files/country_centroids.zip</dc:identifier>
+	
+	<dc:source>NGA GEOnet Names Server</dc:source>
+	<dc:source>http://earth-info.nga.mil/gns/html/index.html</dc:source>
+	<dc:source>USGS Geographic Names Information System</dc:source>
+	<dc:source>http://geonames.usgs.gov/domestic/index.html/</dc:source>
+	
+	<dc:language>en</dc:language>
+	
+	<dcterms:spatial>world</dcterms:spatial>
+	<dcterms:temporal>2012-02-12</dcterms:temporal>
+		
+	<dc:rights>Public domain. If you use this data, you should cite the original sources and check with those sources for additional use guidelines and metadata. This file is provided "as is" and I am not responsible for any errors or omissions. I am also not responsible for any mis-use of this resource.</dc:rights>
+
+</metadata>

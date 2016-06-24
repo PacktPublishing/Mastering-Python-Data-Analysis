@@ -1,0 +1,85 @@
+# LINES
+lines.linewidth: 3
+lines.solid_capstyle: butt
+
+# LEGEND
+legend.fancybox: True
+legend.framealpha: 0.5
+legend.scatterpoints: 1
+legend.numpoints: 2
+legend.shadow: False
+legend.frameon: False
+legend.fontsize: 10
+
+# GRID
+#grid.linestyle: dashed
+grid.linewidth: 1.0
+grid.color: afafaf
+
+
+# AXES
+axes.prop_cycle: cycler('color', ['30a2da', 'fc4f30', 'e5ae38', '6d904f', '8b8b8b'])
+#axes.prop_cycle: cycler('color', ['348abd', 'ff7f00', '4daf4a', 'f781bf', 'a65628', '984ea3', 'e41a1c'])
+#axes.color_cycle: 348ABD, E24A33, 685EA5, 777777, FBC15E, 8EBA42, FFB5B8
+                   # 348ABD : blue
+                   # E24A33 : red
+                   # 988ED5 : purple
+                   # 777777 : gray
+                   # FBC15E : yellow
+                   # 8EBA42 : green
+                   # FFB5B8 : pink
+#axes.prop_cycle: cycler('color', ['377eb8', 'ff7f00', '4daf4a', 'f781bf', 'a65628', '984ea3', '999999', 'e41a1c', 'dede00'] )
+
+axes.facecolor: w
+axes.labelsize: medium
+axes.labelcolor: 333333
+axes.axisbelow: False
+axes.grid: False
+axes.edgecolor: 555555
+axes.linewidth: 2.0
+axes.titlesize: medium
+#axes.spines.bottom: True
+#axes.spines.left: True
+#axes.spines.right: True
+#axes.spines.top: True
+
+# PATCHES
+patch.edgecolor: w
+patch.linewidth: 1
+
+
+# TICK SETTINGS
+## X-axis
+xtick.major.size: 7
+xtick.minor.size: 4
+xtick.major.width: 1.5
+xtick.minor.width: 1.5
+#xtick.minor.visible: True
+xtick.labelsize: medium
+xtick.color: 333333
+## Y-axis
+ytick.major.size: 7
+ytick.minor.size: 4
+ytick.major.width: 1.5
+ytick.minor.width: 1.5
+#ytick.minor.visible: True
+ytick.labelsize: medium
+ytick.color: 333333
+
+# FONT SETTINGS
+font.size:12.0
+
+# SAVE SETTINGS
+savefig.edgecolor: w
+savefig.facecolor: w
+savefig.dpi: 100
+
+# FIGURE SETTINGS
+figure.dpi: 100
+figure.figsize: 5.0, 3.5
+figure.facecolor: w
+figure.edgecolor: w
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95 
+figure.subplot.bottom: 0.07
+figure.titlesize: large
