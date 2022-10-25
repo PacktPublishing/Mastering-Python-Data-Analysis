@@ -11,3 +11,7 @@ This book is intended for professionals with a beginner to intermediate level of
 ## Related Python Data Analysis books
 * [Python Data Analysis](https://www.packtpub.com/big-data-and-business-intelligence/python-data-analysis?utm_source=github&utm_medium=repository&utm_campaign=9781783553358)
 * [Getting Started with Python Data Analysis](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-python-data-analysis?utm_source=github&utm_medium=repository&utm_campaign=9781785285110)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781783553297">https://packt.link/free-ebook/9781783553297 </a> </p>
